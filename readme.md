@@ -26,16 +26,3 @@
 
 ## Final status 
 - { branch: 'master', lastCommit: "Merge branch 'dev'" }
-
-
-
-
-
-
---- Merge dev into master ---
-
---- Diff between commits ---
-{ from: "Merge branch 'hotfix'", to: "Merge branch 'dev'" }
-
---- Final status ---
-{ branch: 'master', lastCommit: "Merge branch 'dev'" }
