@@ -1,4 +1,4 @@
-===== Git Simulator Demo =====
+# Git Simulator Demo 
 
 ## Initial commit 
 
