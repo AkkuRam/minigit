@@ -1,79 +1,37 @@
 ===== Git Simulator Demo =====
 
---- Initial commit ---
+## Initial commit 
+
 { branch: 'master', lastCommit: 'Initial commit' }
 
---- Branch creation & checkout ---
+## Branch creation & checkout
 Switched to existing branch: dev
 Switched to existing branch: master
 Switched to existing branch: hotfix
 Branches: [ 'master', 'dev', 'hotfix' ]
 
---- Commit history (hotfix) ---
+## Commit history (hotfix) 
 #2: Critical hotfix
 #undefined: undefined
 
---- Merge hotfix into master ---
+## Merge hotfix into master 
 Switched to existing branch: master
 #3: Merge branch 'hotfix'
 #0: Initial commit
 #undefined: undefined
 
---- Merge dev into master ---
+## Merge dev into master 
 
---- Diff between commits ---
+## Diff between commits 
 { from: "Merge branch 'hotfix'", to: "Merge branch 'dev'" }
 
---- Final status ---
+## Final status 
 { branch: 'master', lastCommit: "Merge branch 'dev'" }
-akku@Akku:~/minigit$ node main.js
-===== Git Simulator Demo =====
 
---- Initial commit ---
-{ branch: 'master', lastCommit: 'Initial commit' }
 
---- Branch creation & checkout ---
-Switched to existing branch: dev
-Switched to existing branch: master
-Switched to existing branch: hotfix
-Branches: [ 'master', 'dev', 'hotfix' ]
 
---- Commit history (hotfix) ---
-#2: Critical hotfix
-#0: Initial commit
 
---- Merge hotfix into master ---
-Switched to existing branch: master
-#3: Merge branch 'hotfix'
-#0: Initial commit
 
---- Merge dev into master ---
-
---- Diff between commits ---
-{ from: "Merge branch 'hotfix'", to: "Merge branch 'dev'" }
-
---- Final status ---
-{ branch: 'master', lastCommit: "Merge branch 'dev'" }
-akku@Akku:~/minigit$ node main.js
-===== Git Simulator Demo =====
-
---- Initial commit ---
-{ branch: 'master', lastCommit: 'Initial commit' }
-
---- Branch creation & checkout ---
-Switched to existing branch: dev
-Switched to existing branch: master
-Switched to existing branch: hotfix
-Branches: [ 'master', 'dev', 'hotfix' ]
-
---- Commit history (hotfix) ---
-#2: Critical hotfix
-#0: Initial commit
-
---- Merge hotfix into master ---
-Switched to existing branch: master
-#3: Merge branch 'hotfix'
-#0: Initial commit
 
 --- Merge dev into master ---
 
